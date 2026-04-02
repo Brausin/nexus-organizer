@@ -13,10 +13,24 @@ build/
 venv/
 env/
 .env
+.env.*
+!.env.example
 
 # NEXUS runtime files
 .nexus_history.json
 nexus.log
+*.log
+
+# Secrets / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+credentials.json
+secrets.json
+service_account*.json
 
 # OS
 .DS_Store
