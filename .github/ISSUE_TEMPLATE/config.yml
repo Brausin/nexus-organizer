@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentacion del proyecto
+    url: https://github.com/Brausin/nexus-organizer#readme
+    about: Lee el README antes de abrir un issue

@@ -1,0 +1,15 @@
+# <tipo>(<scope>): <descripcion corta en imperativo, max 72 chars>
+#
+# Tipos: feat | fix | docs | refactor | style | test | chore | ci
+# Scope: organizer | config | ui | cli | core | deps  (opcional)
+#
+# [Cuerpo opcional — explica el QUE y el POR QUE, no el COMO]
+#
+# [Footer opcional]
+# Closes #NNN
+# BREAKING CHANGE: descripcion
+#
+# Ejemplos:
+#   feat(organizer): añadir soporte para archivos .mkv
+#   fix(config): corregir lectura de rutas con espacios en Windows
+#   chore(deps): actualizar watchdog a 3.0.0
