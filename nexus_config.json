@@ -1,0 +1,161 @@
+{
+  "version": "1.0.0",
+
+  "watch_folder": "~/Downloads",
+  "dest_folder": "",
+
+  "organize_subfolders": false,
+  "monitor_delay_seconds": 3,
+  "dry_run": false,
+  "log_level": "INFO",
+
+  "exclude_patterns": [
+    ".DS_Store",
+    "Thumbs.db",
+    "desktop.ini",
+    ".nexus_history.json",
+    "nexus.log",
+    "nexus_config.json",
+    "nexus.py"
+  ],
+
+  "exclude_folders": [
+    ".git",
+    "__pycache__",
+    "node_modules"
+  ],
+
+  "categories": {
+
+    "Documentos": {
+      "emoji": "📄",
+      "folder_name": "Documentos",
+      "extensions": [
+        ".pdf", ".doc", ".docx", ".txt", ".rtf", ".odt",
+        ".pages", ".tex", ".md", ".rst", ".epub", ".mobi"
+      ],
+      "subcategories": {
+        "Facturas": {
+          "name_patterns": ["factura", "invoice", "recibo", "receipt", "billing"]
+        },
+        "Contratos": {
+          "name_patterns": ["contrato", "contract", "acuerdo", "agreement", "nda"]
+        },
+        "CVs": {
+          "name_patterns": ["cv", "resume", "curriculum", "hoja_de_vida"]
+        }
+      }
+    },
+
+    "Imagenes": {
+      "emoji": "🖼️",
+      "folder_name": "Imagenes",
+      "extensions": [
+        ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".svg",
+        ".tiff", ".tif", ".ico", ".raw", ".cr2", ".nef", ".heic",
+        ".heif", ".avif"
+      ],
+      "subcategories": {
+        "Screenshots": {
+          "name_patterns": ["screenshot", "captura", "pantalla", "screen", "snap"]
+        },
+        "Wallpapers": {
+          "name_patterns": ["wallpaper", "fondo", "background"]
+        }
+      }
+    },
+
+    "Videos": {
+      "emoji": "🎬",
+      "folder_name": "Videos",
+      "extensions": [
+        ".mp4", ".avi", ".mkv", ".mov", ".wmv", ".flv",
+        ".webm", ".m4v", ".3gp", ".ogv", ".ts", ".m2ts", ".vob"
+      ],
+      "subcategories": {}
+    },
+
+    "Audio": {
+      "emoji": "🎵",
+      "folder_name": "Audio",
+      "extensions": [
+        ".mp3", ".wav", ".flac", ".aac", ".ogg", ".wma",
+        ".m4a", ".opus", ".aiff", ".mid", ".midi", ".ape"
+      ],
+      "subcategories": {}
+    },
+
+    "Comprimidos": {
+      "emoji": "📦",
+      "folder_name": "Comprimidos",
+      "extensions": [
+        ".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".xz",
+        ".tgz", ".cab", ".iso", ".lz4"
+      ],
+      "subcategories": {}
+    },
+
+    "Ejecutables": {
+      "emoji": "💻",
+      "folder_name": "Ejecutables",
+      "extensions": [
+        ".exe", ".msi", ".dmg", ".pkg", ".deb", ".rpm",
+        ".appimage", ".apk", ".ipa", ".bat", ".cmd"
+      ],
+      "subcategories": {}
+    },
+
+    "Hojas_de_Calculo": {
+      "emoji": "📊",
+      "folder_name": "Hojas_de_Calculo",
+      "extensions": [".xlsx", ".xls", ".csv", ".ods", ".numbers", ".tsv"],
+      "subcategories": {}
+    },
+
+    "Presentaciones": {
+      "emoji": "🎯",
+      "folder_name": "Presentaciones",
+      "extensions": [".pptx", ".ppt", ".odp", ".key"],
+      "subcategories": {}
+    },
+
+    "Codigo": {
+      "emoji": "💾",
+      "folder_name": "Codigo",
+      "extensions": [
+        ".py", ".js", ".ts", ".jsx", ".tsx", ".html", ".css", ".scss",
+        ".java", ".c", ".cpp", ".h", ".hpp", ".cs", ".go", ".rs", ".php",
+        ".rb", ".swift", ".kt", ".dart", ".lua", ".r", ".m", ".sh",
+        ".ps1", ".ipynb", ".vue", ".svelte"
+      ],
+      "subcategories": {}
+    },
+
+    "Datos": {
+      "emoji": "🗄️",
+      "folder_name": "Datos",
+      "extensions": [
+        ".json", ".xml", ".yaml", ".yml", ".toml", ".ini",
+        ".sql", ".db", ".sqlite", ".sqlite3", ".env", ".conf"
+      ],
+      "subcategories": {}
+    },
+
+    "Fuentes": {
+      "emoji": "🔤",
+      "folder_name": "Fuentes",
+      "extensions": [".ttf", ".otf", ".woff", ".woff2", ".eot"],
+      "subcategories": {}
+    },
+
+    "Torrents": {
+      "emoji": "📡",
+      "folder_name": "Torrents",
+      "extensions": [".torrent"],
+      "subcategories": {}
+    }
+
+  },
+
+  "others_folder": "Otros"
+}
