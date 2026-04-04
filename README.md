@@ -15,7 +15,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-0ea5e9?style=flat-square)](https://github.com/Brausin/nexus-organizer)
 [![Version](https://img.shields.io/badge/Version-1.0.0-a855f7?style=flat-square)](CHANGELOG.md)
-[![Built with Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)](https://claude.ai/code)
+
 
 </div>
 
@@ -214,7 +214,7 @@ nexus-organizer/
 | [watchdog](https://github.com/gorakhargosh/watchdog) | Monitoreo del sistema de archivos |
 | [colorama](https://github.com/tartley/colorama) | Colores ANSI en Windows |
 | JSON | Configuración y historial de movimientos |
-| [Claude Code](https://claude.ai/code) | Asistente de desarrollo con IA |
+
 
 ---
 
@@ -226,6 +226,6 @@ Distribuido bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICENSE) par
 
 <div align="center">
 
-Desarrollado por **[Brausin](https://github.com/Brausin)** · Construido con [Claude Code](https://claude.ai/code)
+Desarrollado por **[Brausin](https://github.com/Brausin)**
 
 </div>
